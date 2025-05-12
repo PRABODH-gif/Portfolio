@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Prabodh</a>
+        <nav aria-label="Main navigation">
+            <a href="#">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="blur-background"></div>
+            <div class="home-img">
+                <img src="https://img.a.transfermarkt.technology/portrait/big/28003-1671435885.jpg" alt="Profile picture of Prabodh Koirala" class="profile-img">
+            </div>
+            <div class="home-content">
+                <h1>Hello, My name is <span>Prabodh</span> Koirala</h1>
+                <h3>Web Developer & Designer</h3>
+                <p>Hello! I'm a passionate Web Developer with experience in HTML, CSS, and JavaScript. I love creating functional and visually appealing websites that make a difference.</p>
+                <div class="social-icons">
+                    <a href="https://github.com/PRABODH-gif" aria-label="GitHub profile"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/barcelonistprabodh10/" aria-label="Instagram profile"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>E-commerce Website</h3>
+                <p>Developed a fully responsive e-commerce platform with product filtering and cart functionality.</p>
+            </div>
+            <div class="project">
+                <h3>Portfolio Template</h3>
+                <p>Created a customizable portfolio template for creative professionals.</p>
+            </div>
+            <div class="project">
+                <h3>Weather App</h3>
+                <p>Built a weather application using a third-party API to display real-time weather data.</p>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:prabodhkoirala1030@gmail.com">prabodhkoirala1030@gmail.com</a></p>
+            <p>Phone: +977-9862006220</p>
+            <p>Available for freelance work and full-time positions</p>
+            <form action="submit-form" method="POST" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Prabodh Koirala. All rights reserved.</p>
+    </footer>
+</body>
+</html>
